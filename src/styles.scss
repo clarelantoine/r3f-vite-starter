@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#interface {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background: ivory;
+}
+
+#interface {
+  pointer-events: none;
+
+  .interface__wrapper {
+    position: relative;
+    inset: 25px;
+  }
+}
